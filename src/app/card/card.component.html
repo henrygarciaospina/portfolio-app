@@ -5,4 +5,16 @@
             <div class="sub-title">Lorem ipsum dolor sit amet.</div>
     </div>
 </div>
-    
+ 
+<mat-card class="example-card">
+    <mat-card-title-group>
+      <mat-card-title>Shiba Inu</mat-card-title>
+      <mat-card-subtitle>Medium</mat-card-subtitle>
+      <img mat-card-md-image  [src]="image" >
+    </mat-card-title-group>
+    <mat-card-content class="text-justify">
+        {{longText}}
+    </mat-card-content>
+    <mat-slide-toggle>Slide me!</mat-slide-toggle> 
+  </mat-card>
+  
